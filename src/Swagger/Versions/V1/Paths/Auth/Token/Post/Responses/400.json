@@ -1,0 +1,21 @@
+{
+	"description": "Validation failed",
+	"content": {
+		"application/json": {
+			"schema": {
+				"type": "object",
+				"properties": {
+					"data": {
+						"type": "object",
+						"properties": {}
+					},
+					"errors": {
+						"type": "array",
+						"items": { "type": "string" },
+						"default": ["Refresh token is required"]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"type": "object",
+	"properties": {
+		"data": {
+			"type": "object",
+			"properties": {}
+		},
+		"error": {
+			"type": "array",
+			"items": { "type": "string" },
+			"default": ["Internal Server Error"]
+		}
+	}
+}
